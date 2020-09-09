@@ -6,14 +6,13 @@
     <title>Projeto Revenda de Carros</title>
     
     <link rel="stylesheet" href="/car/public/styles/main.css">
-    <link rel="stylesheet" href="/car/public/styles/partials/page-landing.css">
+    <link rel="stylesheet" href="/car/public/styles/partials/page-contato.css">
     <link rel="stylesheet" href="/car/public/styles/partials/menu.css">
     <link rel="stylesheet" href="/car/public/styles/partials/header.css">
-
-    
+    <link rel="stylesheet" href="/car/public/styles/partials/forms.css">
 
 </head>
-<body id="page-landing">
+<body id="page-contato">
     <div id="container">
         <header id="page-header">
             <div class="top-bar-container">
@@ -169,87 +168,48 @@
                 </form>
             </div>
         </header>
-        <main>
-          <h1>DESTAQUES</h1>
-          <div class="main-container">
-            <article>
-                <h1>Modelo GM - CHEVROLET COBALT LTZ 1.4 8V FLEXPOWER/ECONOFLEX 4P</h1>
-                <img src="/car/image/car/cobalt.jpg" alt="cobalt">
-                <p>Marca
-                            GM - CHEVROLET</p>
-                <p>Ano
-                            2015</p>
-                <p>Quilometragem
-                            81000</p>
-                <p>Potência do motor
-                            1.4</p>
-                <p>Cor
-                            Prata
-                        </p>
-                <p>Descricao Vendo troco financio em até 60x para aposentados pensionista autônomos setor privado empréstimo consignado carta de crédito etc. Financiamos o seu próprio  veículos fazemos refinanciamento. Pegamos o seu carro consignado pra vender .só liga ou chama no zap .aprovo o seu crédito pelo zap confira .Fala qual veículo vc procura que eu arrumo pra vc São mais de 100 veículos de várias marcas e modelos confira.   aasjdkaj sdkjasd klasjd ;kljqdlk ;jas;dlkja ;skdjas;d wdoq jdoasjd oiqwjdoas jdlkjqd oasj dokjqdo kjql sdj qokdj alkd jqodjak sjdqodjaskdj qlkdjaosd jalksj dlkajdlkj askdjqok djqoiakj sdljqodjaskd jqodakjdla jdalskdj</p>    
-            </article>
-            <article>
-                <h1>TOYOTA COROLLA XEI 2.0 FLEX 16V AUT.</h1>
-                <img src="/car/image/car/corolla.jpg" alt="corolla">
-                <p>Marca
-                            GM - CHEVROLET</p>
-                <p>Ano
-                            2015</p>
-                <p>Quilometragem
-                            81000</p>
-                <p>Potência do motor
-                            1.4</p>
-                <p>Cor
-                            Prata
-                        </p>
-                <p>Descricao
-                            Vendo troco finacio em até 60x para aposentados pensionista autônomos setor privado empréstimo consignado carta de crédito etc. Financiamos o seu próprio  veículos fazemos refinanciamento. Pegamos o seu carro consignado pra vender .só liga ou chama no zap .aprovo o seu crédito pelo zap confira .Fala qual veículo vc procura que eu arrumo pra vc São mais de 100 veículos de várias marcas e modelos confira.</p>
-            </article>
-            <article>
-                <h1>VW - VOLKSWAGEN GOL (NOVO) 1.6 MI TOTAL FLEX 8V 4P</h1>
-                <img src="/car/image/car/gol.jpg" alt="gold">
-                <p>Marca
-                            GM - CHEVROLET</p>
-                <p>Ano
-                            2015</p>
-                <p>Quilometragem
-                            81000</p>
-                <p>Potência do motor
-                            1.4</p>
-                <p>Cor
-                            Prata
-                        </p>
-                <p>Descricao
-                            Vendo troco financio em até 60x para aposentados pensionista autônomos setor privado empréstimo consignado carta de crédito etc. Financiamos o seu próprio  veículos fazemos refinanciamento. Pegamos o seu carro consignado pra vender .só liga ou chama no zap .aprovo o seu crédito pelo zap confira .Fala qual veículo vc procura que eu arrumo pra vc São mais de 100 veículos de várias marcas e modelos confira.</p>
-            </article>
-            <article>
-                <h1>MERCEDES-BENZ C-180 CGI CLASSIC 1.8 16V 156CV AUT.</h1>
-                <img src="/car/image/car/mercedes.jpg" alt="mercedes">
-                <p>Marca
-                            GM - CHEVROLET</p>
-                <p>Ano
-                            2015</p>
-                <p>Quilometragem
-                            81000</p>
-                <p>Potência do motor
-                            1.4</p>
-                <p>Cor
-                            Prata
-                        </p>
-                <p>Descricao
-                            Vendo troco finacio em até 60x para aposentados pensionista autônomos setor privado empréstimo consignado carta de crédito etc. Financiamos o seu próprio  veículos fazemos refinanciamento. Pegamos o seu carro consignado pra vender .só liga ou chama no zap .aprovo o seu crédito pelo zap confira .Fala qual veículo vc procura que eu arrumo pra vc São mais de 100 veículos de várias marcas e modelos confira.</p>
-            </article>
-          </div>   
+        <main class="main-container">
+          <div>
+          <img src="/car/image/imgcontato.jpg" alt="Fachada">
+          <h1>FALE CONOSCO E TIRE SUAS DUVIDAS.</h1>
+          </div>
+          <div class="main-form-contato">
+            <form action="" id="contato" method="POST"> 
+              <fieldset>
+                <legend>Preencha aqui.</legend>
+
+                <div class="input-block">
+                  <label for="nome">Nome</label>
+                  <input name="name" id="nome" required>
+                </div>
+                <div class="input-block">
+                  <label for="numero">Whatsapp</label>
+                  <input nome="numero" id="numero" required type="number">
+                </div>
+                <div class="textarea-block">
+                  <label for="msg">Mensagem</label>
+                  <textarea nome="msg" id="msg" required></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit">Enviar</button>
+                </div>
+              </fieldset> 
+            </form>
+          <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.3943571534796!2d-41.150728!3d-20.8561493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6932e9b7d3e3ee8b!2sSpellunca%20Music%20House!5e0!3m2!1spt-BR!2sbr!4v1599523572529!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+            <div class="endereco">
+              <h4>Avenida Alameda das Travessas, nº 111, Edifício Bosque do Cerrado, apartamento 2222 - Bairro dos Barris. Salvador - Bahia. CEP: 40000-000.</h4>
+              <h4>Whatsapp (28) 655465666 </h4>
+              <h4>Email: asdwwssww@gmail.com</h4>
+            </div>
+
+          </div>
         </main>
 
-        
-        <!-- <footer id="footer-container">
-asdasdasd
-
-        </footer> -->
     </div>
     
 </body>
-<script src="./public/scripts/menu.js"></script>
+<script src="/car/public/scripts/menu.js"></script>
 
 </html>
