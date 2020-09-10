@@ -6,13 +6,13 @@
     <title>Projeto Revenda de Carros</title>
     
     <link rel="stylesheet" href="/car/public/styles/main.css">
-    <link rel="stylesheet" href="/car/public/styles/partials/page-contato.css">
+    <link rel="stylesheet" href="/car/public/styles/partials/page-logar.css">
     <link rel="stylesheet" href="/car/public/styles/partials/menu.css">
     <link rel="stylesheet" href="/car/public/styles/partials/header.css">
     <link rel="stylesheet" href="/car/public/styles/partials/forms.css">
 
 </head>
-<body id="page-contato">
+<body id="page-logar">
     <div id="container">
         <header id="page-header">
             <div class="top-bar-container">
@@ -168,45 +168,27 @@
                 </form>
             </div>
         </header>
-        <main class="main-container">
-          <div>
-          <img src="/car/image/imgcontato.jpg" alt="Fachada">
-          <h1>FALE CONOSCO E TIRE SUAS DUVIDAS.</h1>
-          </div>
-          <div class="main-form-contato">
-            <form action="" id="contato" method="POST"> 
-              <fieldset>
-                <legend>Preencha aqui.</legend>
+        <main>
+            
+                <form id="login-form">
+                    <div class="input-block-logo">
+                        <label for="login">Login</label>
+                        <input name="login" id="login" type="text">
+                        <label for="senha">Senha</label>
+                        <input name="password" id="password" type="password">
+                    </div>
+                    <button type="submit" id="logar">Logar</button>
+                   
 
-                <div class="input-block">
-                  <label for="nome">Nome</label>
-                  <input name="name" id="nome" required>
+                </form>
+                <div class="submit">
+                    <button type="submit" id="excluir">Excluir</button>
+                    <button type="submit" id="salvar">Salvar</button>
                 </div>
-                <div class="input-block">
-                  <label for="numero">Whatsapp</label>
-                  <input nome="numero" id="numero" required type="number">
-                </div>
-                <div class="textarea-block">
-                  <label for="msg">Mensagem</label>
-                  <textarea nome="msg" id="msg" required></textarea>
-                </div>
-                <div class="button">
-                  <button type="submit">Enviar</button>
-                </div>
-              </fieldset> 
-            </form>
-            <div class="maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.3943571534796!2d-41.150728!3d-20.8561493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6932e9b7d3e3ee8b!2sSpellunca%20Music%20House!5e0!3m2!1spt-BR!2sbr!4v1599523572529!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </div>
-            <div class="endereco">
-              <h4>Avenida Alameda das Travessas, nº 111, Edifício Bosque do Cerrado, apartamento 2222 - Bairro dos Barris. Salvador - Bahia. CEP: 40000-000.</h4>
-              <h4>Whatsapp (28) 655465666 </h4>
-              <h4>Email: asdwwssww@gmail.com</h4>
-            </div>
 
-          </div>
+                
+
         </main>
-
     </div>
     
 </body>
