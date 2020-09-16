@@ -1,16 +1,21 @@
 #page-logar{
     background-color: var(--color-primary);
+    
 }
 
+#container{
+    height: 100vh;
+    
+}
 
-.top-bar-container {
+/* .top-bar-container {
     display: flex;
     align-items:center;
     justify-content:flex-end;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin-bottom: 3rem;
         
-}
+} */
 
 #login-form {
     margin-top:3rem;
@@ -43,7 +48,7 @@
         display: flex;
         justify-content: center;
 
-        margin-top:3rem;
+        margin-top:220px;
         flex-direction: column;
     }
 

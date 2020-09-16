@@ -1,0 +1,67 @@
+#page-veiculos {
+    background-color: var(--color-primary);
+      
+}
+#container{
+    height: 100vh;
+}
+
+#cadastrar select, input, button {
+    width: 90vw;
+    max-width: 700px;
+    height: 3rem;
+    border-radius: 0.8rem;
+    outline: 0;
+    font: 1.6rem Archivo;
+    margin-top: 0.5rem;
+    margin-left: 0;
+}
+
+#cadastrar label {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#cadastrar textarea {
+    width: 90vw;
+    max-width: 700px;
+    height: 15rem;
+    border-radius: 0.8rem;
+    outline: 0;
+    resize: vertical;
+    font: 1.6rem Archivo;
+    margin-top: 0.5rem;
+}
+
+
+.field-opcionais {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* display:contents; */
+    font-size:1.1rem;
+    
+}
+.field-opcionais legend {
+    font-size:1.6rem;
+}
+
+.field-opcionais input {
+    width:1.5rem;
+    height: 1.5rem;
+}
+
+.input-checkbox {
+    display:flex;
+    align-items:center;
+    justify-content:start;
+}
+.input-checkbox label {
+    margin-left: 0.5rem;
+}
+
+@media (min-width:700px){
+    .field-opcionais {
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+}
